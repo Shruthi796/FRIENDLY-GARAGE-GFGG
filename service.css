@@ -1,0 +1,35 @@
+body{
+    background-image: url("pexels-cottonbro-studio-4488639.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    color: aliceblue;
+}
+.home{
+    position:relative;
+    padding: 50px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    background-color: rgb(111, 111, 190);
+    text-align:center;
+}
+.nearby{
+    position: relative;
+    padding: 50px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    background-color: rgb(111, 111, 190);
+    text-align:center;
+
+}
+.top-rated{
+    position: relative;
+    padding: 50px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    background-color: rgb(111, 111, 190);
+    text-align:center;
+
+}

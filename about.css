@@ -1,0 +1,36 @@
+.card{
+    float:left;
+    width:30px;
+    padding: 0px 10px;
+   margin-left: 50px;
+}
+.row{
+    margin:0 10px;
+}
+.row::after{
+    content:"";
+    display:table;
+    clear: both;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+@media screen {
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+    
+}
+.card-body:hover{
+    
+}
+.card-img-top{
+    opacity:0.5;
+    
+}
